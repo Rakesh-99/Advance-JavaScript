@@ -27,3 +27,18 @@ displayName();
 
 console.log('Three');
 
+
+
+// Callback can be Synchronous as well 
+
+console.log('First statement');
+
+const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+arr.forEach(function (val) {
+    console.log(val);
+});
+
+console.log('Third Statement ')
+
+
+
